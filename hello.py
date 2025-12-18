@@ -1,1 +1,21 @@
-print("hello world")
+print("Hello world")
+x=0
+y=1
+name="hello world"
+print("name")
+print(name)
+print(x)
+name=input("Enter your name: ")
+print("name")
+print(name)
+age=input("Enter your age: ")
+print("age")
+print(age)
+qualification=input("Enter your qualification: ")
+print("qualification")  
+print(qualification)
+height=input("Enter your height: ")
+print("height")
+print(height)
+weight=input("Enter your weight: ")
+print(weight)
