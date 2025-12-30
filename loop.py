@@ -48,19 +48,19 @@
 # #     print(x)
 # #     x = x + 2
 
-# # 5-50,3-30
+# 5-50,3-30
 
-# # 3,6,9,12,15,18,upto 30
-# start 3
-# end 30
-# step 3 
+# 3,6,9,12,15,18,upto 30
+start 3
+end 30
+step 3 
 
-# x = 3
-# while x <= 30 :
-#     print(x)
-#     x = x + 3 
+x = 3
+while x <= 30 :
+    print(x)
+    x = x + 3 
 
-#5,10,15,20,upto 50
+5,10,15,20,upto 50
 
 x = 5
 while x <= 50:

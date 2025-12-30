@@ -28,18 +28,84 @@
 
 # can_vote(17)
 
-def is_minor(age):
-    print(age <= 18)
+# def is_minor(age):
+#     print(age <= 18)
 
-is_minor(9)
-is_minor(25)
+# is_minor(9)
+# is_minor(25)
 
-def is_centum(mark):
-    print("is_centum", mark == 100)
+# def is_centum(mark):
+#     print("is_centum", mark == 100)
 
-is_centum(100)
+# is_centum(100)
 
-def has_fever(temp):
-    print("has_fever",temp > 100)
+# def has_fever(temp):
+#     print("has_fever",temp > 100.5)
 
-has_fever(102)
+# x = int(input("has_fever:"))
+# has_fever(x)
+
+# def add (a,b,c):
+#     z = a+b+c
+#     return z
+
+# add(10,20,30)
+ 
+def max (x , y):        # x = 10 ,y = 20 false
+    z =  x > y      # result = false then y is big number
+    if z == True:
+        return x
+    else:
+        return y
+    
+result= max(20,10)
+print(result) 
+
+def min (a,b):
+    if a < b:
+        return a
+    else:
+        return b
+    
+result = min(20,10)
+print(result)
+
+
+# x is even -> x
+# x is odd -> 2x
+
+# x = 11
+# if x % 2 ==0:
+#     print (x)
+# else:
+#     print (2 * x)
+
+# def even ():
+#     x = 11
+#     if x % 2 ==0:
+#         print (x)
+#     else:
+#         print (2 * x)
+
+# even()
+
+# def even (x):
+#     if x % 2 ==0:
+#         print (x)
+#     else:
+#         print (2 * x)
+
+# even(11)
+# even(10)
+
+def even (x):
+    if x % 2 ==0:
+        return (x)
+    else:
+        return (2 * x)
+
+result = even(11)
+print(result) 
+
+
+
