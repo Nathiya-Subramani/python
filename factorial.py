@@ -17,16 +17,5 @@ for i in range (1,x+1,1):
 print ("fact of 3:",fact)
 
 
-# while loop (fact):
-
-n = 5       # factorial find panna vendiya number
-fact = 1     # factorial result store panna
-i = 1        # loop start value
-
-while i <= n:
-     fact = fact * 1
-     i = i * 1
-
-print ("factorial:", fact)
 
 
