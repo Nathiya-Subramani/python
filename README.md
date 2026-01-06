@@ -1,2 +1,2 @@
 # python
-class and homework
+Class and Homework
