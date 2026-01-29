@@ -75,6 +75,9 @@ else:
 cutoff_marks = maths + (chemistry/2) +(physics/2)
 print("cutoff (M+C+p):",cutoff_marks) 
 
+
+
+
 #h/w
 # convert all into function
 # how many centums in (numbers)
